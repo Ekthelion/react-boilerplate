@@ -27,5 +27,6 @@
     "settings": {
         "react": {
             "version": "detect"
+        }
     }
 }
