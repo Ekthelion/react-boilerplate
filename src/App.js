@@ -1,10 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
 
 const App = ({ ...props }) => {
-    return React.createElement("h1", {}, props.headerText);
+    return <h1>{props.headerText}</h1>;
 };
-ReactDOM.render(
-    React.createElement(App, { headerText: "HEADER" }),
-    document.getElementById("app")
-);
+render(<App headerText="Header from props" />, document.getElementById("app"));
