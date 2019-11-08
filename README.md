@@ -16,4 +16,4 @@ yarn
 
 ## Usage
 
-Repository contains **src** folder with the source files. To start, simply start extending _App.js_ file.
+**src** folder contains the source files. To begin, start in _App.js_.
