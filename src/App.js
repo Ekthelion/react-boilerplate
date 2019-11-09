@@ -1,7 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
+import Header from "./components/Header";
 
-const App = ({ ...props }) => {
-    return <h1>{props.headerText}</h1>;
+const App = () => {
+    return <Header level={1} text="Header" />;
 };
-render(<App headerText="Header from props" />, document.getElementById("app"));
+render(<App />, document.getElementById("app"));
