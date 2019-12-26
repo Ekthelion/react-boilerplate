@@ -17,3 +17,9 @@ yarn
 ## Usage
 
 **src** folder contains the source files. To begin, start in _App.js_.
+
+To start the dev server, simply do:
+
+```
+npm run dev
+```
